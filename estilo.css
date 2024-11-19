@@ -1,0 +1,91 @@
+/* General */
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.card {
+    width: 336px; /* Ancho exacto como en la imagen */
+    background-color: white;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 8px 8px 20px 0px rgba(85, 85, 85, 0.08);
+}
+
+.image-container {
+    height: 152px; /* Altura exacta para la imagen */
+    background-color: white; /* Color rosa claro del fondo */
+    position: relative;
+    overflow: hidden;
+    padding: 16px 16px 0px;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+
+}
+
+.content {
+    /* padding: 16px 16px 0px 16px; */
+    padding-top: 16px;
+}
+
+.category-container{
+    background-color: white;
+    padding: 0px 16px 0px 16px;
+}
+
+.category {
+    display: inline-block;
+    background-color: rgb(248, 245, 254);
+    color: rgb(122, 71, 177);
+    font-weight: bold;
+    font-size: 10px;
+    padding: 4px 16px;
+    border-radius: 9px;
+}
+
+h2 {
+    background-color: white;
+    font-size: 18px;
+    color: #000;
+    margin-top: 16px;
+    margin-bottom: 6px;
+    padding: 0px 16px 0px 16px;
+}
+
+p {
+    background-color: white;
+    font-size: 15px;
+    color: #666;
+    line-height: 1.6;
+    margin: 0px 0px 20px 0px;
+    padding: 0px 16px 0px 16px;
+}
+
+.custom-hr {
+    height: 1px;                  /* Grosor de la línea */
+    background-color: #f4f5f9;       /* Color de la línea (gris) */                 /* Ancho completo del contenedor */
+    margin: 15px 0;               /* Espaciado superior e inferior */
+    border: none;                 /* Sin borde */
+}
+
+
+.author {
+    background-color: white;
+    font-size: 12px;
+    color: #888;
+    text-align: left;
+    display: block;
+    margin: 20px 0px 20px 0px; /* Espaciado exacto */
+    padding: 0px 16px 0px 16px;
+}
+
